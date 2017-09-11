@@ -6,8 +6,6 @@ osx_image: xcode8.3
 xcode_sdk: iphonesimulator10.0
 script:
 - set -o pipefail
- cache: cocoapods
- podfile: Podfile
 # before_install:
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
