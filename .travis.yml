@@ -10,3 +10,5 @@ script:
 # - pod install --project-directory=Example
 script:
 - xcodebuild test -enableCodeCoverage YES -workspace WhatsUp.xcworkspace -scheme WhatsUp -sdk iphonesimulator10.0 ONLY_ACTIVE_ARCH=NO | xcpretty
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
