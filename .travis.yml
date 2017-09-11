@@ -9,4 +9,4 @@ script:
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- xcodebuild test -enableCodeCoverage YES -workspace WhatsUp.xcworkspace -scheme SWhatsUp -sdk iphonesimulator10.0 ONLY_ACTIVE_ARCH=NO | xcpretty
+- xcodebuild test -enableCodeCoverage YES -workspace WhatsUp.xcworkspace -scheme WhatsUp -sdk iphonesimulator10.0 ONLY_ACTIVE_ARCH=NO | xcpretty
