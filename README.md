@@ -1,3 +1,8 @@
+# **Depreciated** 
+# Use this New Project https://github.com/satishbabariya/Chatter
+
+
+============================================================================================================================
 # Firebase-Chat-Demo
 
 [![Language: Swift 3](https://img.shields.io/badge/language-swift3-f48041.svg?style=flat-square)](https://developer.apple.com/swift)
